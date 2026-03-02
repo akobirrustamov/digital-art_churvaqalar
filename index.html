@@ -1,26 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div id="user">
-        <button onclick="navigateLogin()">
-          Login
-        </button>
-    </div>
-<hr>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, voluptates!
-     <div id="client">
 
-    </div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, officiis.
-    <script src="./app.js"></script>
+<body>
+    <div class="bg-[#2B2B2B]">
+
+        <!-- Header -->
+        <div class="lg:max-w-7xl flex justify-between pt-5 items-center md:max-w-2xl max-w-2xs max-w-2xl mx-auto">
+            <div>
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="lg:flex hidden gap-10 items-center">
+                <p class="font-semibold text-base text-[#FFFFFF]">
+                    Marketplace
+                </p>
+                <p class="font-semibold text-base text-[#FFFFFF]">
+                    Rankings
+                </p>
+                <p class="font-semibold text-base text-[#FFFFFF]">
+                    Connect a wallet
+                </p>
+                <div class="flex gap-1 items-center p-1 px-4 rounded-2xl hover:bg-[#A259FF] border border-[#A259FF]">
+                    <i class="fa-regular fa-user text-white"></i>
+                    <p class="font-semibold text-base text-[#FFFFFF]">
+                        Sign Up
+                    </p>
+                </div>
+            </div>
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars-staggered text-white"></i>
+            </div>
+        </div>
+        <!--/Header-->
+
+        <!--Discover-->
+        <div class="lg:max-w-7xl md:flex justify-between pt-5 items-center md:max-w-2xl max-w-2xs max-w-2xl mx-auto">
+            <div>
+                <p class="text-white font-semibold lg:text-6xl text-2xl md:text-4xl">
+                    Discover <br class="lg:block hidden"> Digital <br class="md:block hidden lg:hidden"> Art & <br
+                        class="lg:block hidden  md:hidden"> Collect <br class="md:block hidden lg:hidden"> NFTs
+                </p>
+                <p class="md:text-base mt-5 lg:text-xl text-base text-white  ">
+                    NFT marketplace UI created with Anima <br class="md:block lg:hidden block"> for <br
+                        class="lg:block hidden">Figma. Collect, buy and sell art from <br class="lg:block block"> more
+                    than 20k NFT
+                    artists.
+                </p>
+                <div class="md:block ">
+                    <div class="md:flex  hidden mt-5">
+                        <div
+                            class="flex gap-1 items-center p-3 px-11 rounded-2xl hover:bg-[#A259FF] border border-[#A259FF]">
+                            <i class="fa-solid fa-rocket text-white"></i>
+                            <p class="font-semibold text-base text-[#FFFFFF]">
+                                Get Started
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:flex md:block hidden mt-7 justify-between">
+                        <div>
+                            <p class="lg:text-2xl text-xl font-bold  text-white ">
+                                240k+
+                            </p>
+                            <p class="font-normal  lg:text-2xl text-base text-white">
+                                Total Sale
+                            </p>
+                        </div>
+                        <div>
+                            <p class="lg:text-2xl text-xl font-bold  text-white ">
+                                100k+
+                            </p>
+                            <p class="font-normal  lg:text-2xl text-base text-white">
+                                Auctions
+                            </p>
+                        </div>
+                        <div>
+                            <p class="lg:text-2xl text-xl font-bold  text-white ">
+                                240k+
+                            </p>
+                            <p class="font-normal  lg:text-2xl text-base text-white">
+                                Artists
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" pb-4 mt-2 rounded-2xl bg-[#3B3B3B]">
+                <img class="lg:block hidden" src="./img/Image Placeholder (2).png" alt="">
+                <img class="md:block lg:hidden" src="./img/Image Placeholder (1).png" alt="">
+                <p class="font-semibold mt-1 px-3 text-2xl text-white">
+                    Space Walking
+                </p>
+                <div class="flex px-3 mt-2 gap-2">
+                    <img src="./img/Asset 12 2 (8).png" alt="">
+                    <p class="font-normal  text-base text-white">
+                        Animakid
+                    </p>
+                </div>
+            </div>
+            <div class="md:hidden ">
+                <div class="md:flex  md:hidden mt-5">
+                    <div
+                        class="flex gap-1 items-center p-3 px-21 rounded-2xl hover:bg-[#A259FF] border border-[#A259FF]">
+                        <i class="fa-solid fa-rocket text-white"></i>
+                        <p class="font-semibold  text-base text-[#FFFFFF]">
+                            Get Started
+                        </p>
+                    </div>
+                </div>
+                <div class="flex mt-7 justify-between">
+                    <div>
+                        <p class="lg:text-2xl text-xl font-bold  text-white ">
+                            240k+
+                        </p>
+                        <p class="font-normal  lg:text-2xl text-base text-white">
+                            Total Sale
+                        </p>
+                    </div>
+                    <div>
+                        <p class="lg:text-2xl text-xl font-bold  text-white ">
+                            100k+
+                        </p>
+                        <p class="font-normal  lg:text-2xl text-base text-white">
+                            Auctions
+                        </p>
+                    </div>
+                    <div>
+                        <p class="lg:text-2xl text-xl font-bold  text-white ">
+                            240k+
+                        </p>
+                        <p class="font-normal  lg:text-2xl text-base text-white">
+                            Artists
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Discover-->
+
+        <div class="lg:max-w-7xl  mt-10  md:max-w-2xl max-w-2xs max-w-2xl mx-auto">
+            <p class="font-semibold lg:text-4xl  text-2xl text-white">
+                Trending Collection
+            </p>
+            <p class="font-normal mt-2 lg:text-2xl text-base text-white">
+                Checkout our weekly updated trending  <br class="md:hidden">collection.
+            </p>
+        </div>
+
+        <div class="lg:max-w-7xl md:flex justify-between pt-5  md:max-w-2xl max-w-2xs max-w-2xl mx-auto">
+            <div>
+                <img src="./img/Primary Photo Placeholder (3).png" alt="">
+                <div class="flex mt-2 justify-between gap-1">
+                    <img src="./img/pas-1.png" alt="">
+                    <img src="./img/pas-2.png" alt="">
+                    <div class="bg-[#A259FF] py-8 rounded-2xl p-3">
+                        <p class="font-bold text-2xl text-white">
+                            1025+
+                        </p>
+                    </div>
+                </div>
+                <p class="font-semibold mt-2 text-2xl text-white ">
+                    DSGN Animals
+                </p>
+                <div class="flex mt-1 gap-2">
+                    <img src="./img/futer.png" alt="">
+                    <p class="font-normal text-base text-white">
+                        MrFox
+                    </p>
+                </div>
+            </div>
+            <div class="md:block hidden">
+                <img src="./img/Primary Photo Placeholder (4).png" alt="">
+                <div class="flex mt-2 justify-between">
+                    <img src="./img/pas-2-2.png" alt="">
+                    <img src="./img/pas-2-3.png" alt="">
+                    <div class="bg-[#A259FF] py-8 rounded-2xl p-3">
+                        <p class="font-bold text-2xl text-white">
+                            1025+
+                        </p>
+                    </div>
+                </div>
+                <p class="font-semibold mt-2 text-2xl text-white ">
+                    Magic Mushrooms
+                </p>
+                <div class="flex mt-1 gap-2">
+                    <img src="./img/futer-1.png" alt="">
+                    <p class="font-normal text-base text-white">
+                        Shroomie
+                    </p>
+                </div>
+            </div>
+            <div class="lg:block hidden">
+                <img src="./img/Primary Photo Placeholder (6).png" alt="">
+                <div class="flex mt-2 justify-between">
+                    <img src="./img/pas-3-2.png" alt="">
+                    <img src="./img/pas-3-3.png" alt="">
+                    <div class="bg-[#A259FF] py-8 rounded-2xl p-3">
+                        <p class="font-bold text-2xl text-white">
+                            1025+
+                        </p>
+                    </div>
+                </div>
+                <p class="font-semibold mt-2 text-2xl text-white ">
+                    Disco Machines
+                </p>
+                <div class="flex mt-1 gap-2">
+                    <img src="./img/futer-2.png" alt="">
+                    <p class="font-normal text-base text-white">
+                       BeKind2Robots
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
