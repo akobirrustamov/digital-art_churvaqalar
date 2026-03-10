@@ -12,32 +12,357 @@
 </head>
 
 <body class="bg-[#2B2B2B]">
-    <div class="hidden md:flex items-center justify-between lg:max-w-6xl md:max-w-3xl max-w-2xs mx-auto 
-bg-[#3b3b3b] border border-dashed border-purple-500 
-rounded-xl px-6 py-4 gap-20 text-white">
-        <div class="flex items-center gap-4">
-            <div class="bg-[#2a2a2a] rounded-full flex items-center justify-center px-3 py-2 text-gray-400">
-                1
+    <div class="bg-[#2B2B2B]">
+        <!-- Header -->
+        <div class="lg:max-w-7xl flex justify-between pt-5 items-center md:max-w-2xl max-w-2xs mx-auto">
+            <div>
+                <img src="./img/logo.png" alt="">
             </div>
-            <img src="">
-            <p class="text-lg font-semibold">
-                Jaydon Ekstrom Bothman
-            </p>
+            <div class="lg:flex hidden gap-10 items-center">
+                <p class="font-semibold text-base text-[#FFFFFF]">
+                    Marketplace
+                </p>
+                <p class="font-semibold text-base text-[#FFFFFF]">
+                    Rankings
+                </p>
+                <p class="font-semibold text-base text-[#FFFFFF]">
+                    Connect a wallet
+                </p>
+                <div class="flex gap-1 items-center p-1 px-4 rounded-2xl hover:bg-[#A259FF] border border-[#A259FF]">
+                    <i class="fa-regular fa-user text-white"></i>
+                    <p class="font-semibold text-base text-[#FFFFFF]">
+                        Sign Up
+                    </p>
+                </div>
+            </div>
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars-staggered text-white"></i>
+            </div>
         </div>
-        <div class="flex items-center gap-16 text-gray-300">
-            <p class="text-green-400">+1.41%</p>
-            <p>602</p>
-            <p class="text-white">12.4 ETH</p>
+        <!--/Header-->
+
+        <div class="lg:max-w-6xl  pt-5 items-center md:max-w-2xl max-w-2xs mx-auto">
+            <p class="font-semibold lg:text-5xl md:text-4xl text-2xl text-white ">
+                Top Creators
+            </p>
+            <p class="font-normal mt-2 lg:text-xl text-base text-white">
+                Check out top ranking NFT artists on <br class="md:hidden block"> the NFT Marketplace.
+            </p>
+
+        </div>
+
+        <div class="lg:max-w-6xl flex mt-10 justify-between md:max-w-2xl max-w-2xs mx-auto">
+            <div class="flex gap-2 md:p-3 p-1 hover:border-[#858584] border-b-2 border-[#2B2B2B] items-center ">
+                <p class="font-semibold md:block hidden px-7 lg:text-2xl text-base text-white ">
+                    Created
+                </p>
+                <p class="font-semibold md:hidden text-base hover:text-white text-[#858584] ">
+                    1d
+                </p>
+
+            </div>
+
+            <div class="flex  gap-2 md:p-3 p-1 hover:border-[#858584] border-b-2 border-[#2B2B2B] items-center ">
+                <p class="font-semibold md:block hidden px-7 lg:text-2xl text-base text-white ">
+                    This Week
+                </p>
+                <p class="font-semibold md:hidden text-base hover:text-white text-[#858584] ">
+                    7d
+                </p>
+            </div>
+            <div class="flex  gap-2 md:p-3 p-1 hover:border-[#858584] border-b-2 border-[#2B2B2B] items-center ">
+                <p class="font-semibold md:block hidden px-7 lg:text-2xl text-base text-white ">
+                    This Month
+                </p>
+                <p class="font-semibold md:hidden text-base hover:text-white text-[#858584] ">
+                    30d
+                </p>
+            </div>
+            <div class="flex  gap-2 md:p-3 p-1 hover:border-[#858584] border-b-2 border-[#2B2B2B] items-center ">
+                <p class="font-semibold md:block hidden px-7 lg:text-2xl text-base text-white ">
+                    All Time
+                </p>
+                <p class="font-semibold md:hidden text-base hover:text-white text-[#858584] ">
+                    All time
+                </p>
+            </div>
         </div>
     </div>
-    <div class="md:hidden flex items-center justify-between lg:max-w-6xl md:max-w-1xl max-w-2xs mx-auto 
-bg-[#3b3b3b] rounded-full px-4 py-2 gap-4 text-white">
-        <div class="flex items-center gap-3">
-            <p class="text-gray-400 text-sm">1</p>
-            <img src="">
-            <p class="text-sm">Ruben Carder</p>
+
+    <div class="">
+        <div class="flex border rounded-2xl mb-5 border-[#3B3B3B] p-2 lg:max-w-6xl md:max-w-2xl max-w-2xs mx-auto text-[#858584] justify-between">
+            <div class="flex gap-10">
+                <div class="">#</div>
+                <div class="">Artist</div>
+            </div>
+            <div class="flex gap-17">
+                <div class="md:block hidden">Change</div>
+                <div class="lg:block hidden">NFTs Sold</div>
+                <div class="">Volume</div>
+            </div>
         </div>
-        <p class="text-sm">12.4 ETH</p>
+        <div class="">
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">1</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Jaydon Ekstrom Bothman</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">2</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Alfonso Bator</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">3</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Nolan Mango</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">3</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Nolan Mango</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">5</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Miracle Gouse</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">6</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Alena Septimus</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">7</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Desirae Lipshutz</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">8</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Paityn Kenter</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">9</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Alena Vaccaro</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">10</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Randy Carder</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">11</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Hanna Culhane</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">12</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Jocelyn Workman</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">13</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Desirae Septimus</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">14</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Ahmad Franci</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">15</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Maria Bergson</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">16</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Ahmad Geidt</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">17</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Skylar Mango</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">18</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Rayna Geidt</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">19</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Marley Rosser</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+            <div class="bg-[#3B3B3B] rounded-2xl px-1 lg:max-w-6xl flex md:max-w-2xl max-w-2xs mx-auto lg:mb-6 md:mb-6 mb-3 justify-between">
+                <div class="flex items-center gap-2 lg:gap-6 p-1">
+                    <div class="lg:text-2xl text-[#858584] border p-1 px-2  rounded-full border-[#2B2B2B] bg-[#2B2B2B]">20</div>
+                    <img src="img/ran1.png" class="md:block hidden" alt="">
+                    <img src="img/run1.png" class="md:hidden block" alt="">
+                    <div class="text-white lg:text-2xl md:text-2xl text-xs font-semibold">Tatiana Philips</div>
+                </div>
+                <div class="flex items-center lg:gap-23 md:gap-15">
+                    <div class="text-[#00AC4F] md:block hidden">+1.41%</div>
+                    <div class="text-white lg:block hidden">602</div>
+                    <div class="text-white">12.4 ETH</div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
