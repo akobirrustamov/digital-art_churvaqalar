@@ -18,14 +18,16 @@
                 <img src="./img/logo.png" alt="">
             </div>
             <div class="lg:flex hidden gap-10 items-center">
-                <div class="flex gap-2">
-                    <a href="index.html">
-                        <p class="">:(</p>
-                    </a>
-                    <a href="accaount2.html">
-                        <p class="">:)</p>
-                    </a>
-                </div>
+                <a class="border-b-2 border-[#3B3B3B]" href="./account.html ">
+                    <p class="text-white">
+                        BMW
+                    </p>
+                </a>
+                <a href="./accaount2.html">
+                    <p class="text-white">
+                        MERS
+                    </p>
+                </a>
                 <a href="marketplace.html">
                     <p class="font-semibold text-base text-[#FFFFFF]">
                         Marketplace
@@ -70,18 +72,30 @@
                     </p>
                     <div class="mt-5 mx-auto">
                         <div>
-                            <input class="bg-white p-2 px-10  rounded-2xl" type="text" placeholder=" Username">
+                            <div class="bg-white p-2 md:px-6 flex items-center rounded-2xl">
+                                <i class="fa-regular fa-user text-red-400"></i>
+                                <input class="lg:pr-30" type="text" placeholder=" Username">
+                            </div>
                         </div>
                         <div>
-                            <input class="bg-white p-2 lg:mt-8 mt-5 px-10  rounded-2xl" type="text" placeholder=" Email Address">
+                            <div class="bg-white p-2 lg:mt-8 mt-5  flex items-center md:px-7 rounded-2xl ">
+                                <i class="fa-regular fa-envelope text-red-400"></i>
+                                <input class="lg:pr-30 " type="text" placeholder=" Email Address">
+                            </div>
                         </div>
-                        <div>
-                            <input class="bg-white p-2 lg:mt-8 mt-5 px-10  rounded-2xl" type="text" placeholder="Password">
+                        <div class="">
+                            <div class="bg-white p-2  flex items-center lg:mt-8 mt-5 md:px-7  rounded-2xl">
+                                <i class="fa-solid fa-lock text-red-400"></i>
+                                <input class="lg:pr-30" type="text" placeholder="Password">
+                            </div>
                         </div>
-                        <input class="bg-white p-2 mt-5 px-10 lg:mt-8 rounded-2xl" type="text" placeholder="Confirm Password">
+                        <div class="bg-white p-2 mt-5  flex items-center md:px-7 lg:mt-8 rounded-2xl">
+                            <i class="fa-solid fa-lock text-red-400"></i>
+                            <input class="lg:pr-30" type="text" placeholder="Confirm Password">
+                        </div>
                         <div class="flex">
                             <div
-                                class="flex gap-1 items-center p-2 duration-500 px-18 mt-5 lg:mt-10 mb-5 rounded-2xl hover:bg-[#A259FF] border border-[#A259FF]">
+                                class="flex gap-1 items-center p-2 duration-500 px-18 lg:px-35 mt-5 lg:mt-10 mb-5 rounded-2xl hover:bg-[#A259FF] border border-[#A259FF]">
                                 <p class="font-semibold text-base text-[#FFFFFF]">
                                     Create account
                                 </p>
@@ -91,7 +105,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="bg-[#3B3B3B] pb-5">
             <div class="lg:max-w-6xl  mx-auto  md:max-w-2xl max-w-2xs">
                 <div class="lg:max-w-7xl pt-5 lg:flex justify-between md:max-w-2xl max-w-2xs  mx-auto">
@@ -114,7 +128,8 @@
                         </div>
                     </div>
                     <div class="">
-                        <p class="text-[#FFFFFF] font-mono lg:mt-0 mt-5 md:mt-5 md:text-base text-3xl font-bold">
+                        <p
+                            class="text-[#FFFFFF] font-mono lg:mt-0 mt-5 md:mt-5 text-xl md:text-2xl lg:text-xl font-bold">
                             Explore
                         </p>
                         <p class="text-base font-normal mt-2 text-[#CCCCCC]">
@@ -128,7 +143,8 @@
                         </p>
                     </div>
                     <div class="">
-                        <p class="text-[#FFFFFF] font-mono md:mt-5 mt-5 lg:mt-0 md:text-base text-3xl font-bold">
+                        <p
+                            class="text-[#FFFFFF] font-mono md:mt-5 mt-5 lg:mt-0 text-xl md:text-2xl lg:text-xl font-bold">
                             Join our weekly digest
                         </p>
                         <p class="text-base font-normal mt-2 text-[#CCCCCC]">
@@ -160,7 +176,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="border-t mt-8 border-white pt-6 text-xs text-white">
                     <p class="pt-2">Ⓒ NFT Market. Use this template freely.</p>
